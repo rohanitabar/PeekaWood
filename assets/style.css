@@ -13,7 +13,21 @@
          url('../fonts/samim-font-v2.0.1/Samim.woff') format('woff'),  
          url('../fonts/samim-font-v2.0.1/Samim.ttf') format('truetype');    
 }  
+.container {
+    max-width: 1200px;
+    /* حداکثر عرض برای کامپیوتر */
+    margin: 0 auto;
+    /* وسط چین کردن */
+    padding: 20px;
+    /* فاصله داخلی */
+}
 
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+        /* فاصله داخلی برای گوشی */
+    }
+}
 main{
     margin-top: 10px;
 }
@@ -95,11 +109,9 @@ a {
     border-radius:10px;
     padding-right: 10px;
     padding-top: 5px;
-    margin-left: -50px;
 }
 
 .info-1{
-    margin-right: 20px;
     width: 200px;
     height: 50px;
     margin-top : 10px;
@@ -193,8 +205,11 @@ a {
     -webkit-user-select: none;  
     user-select: none; 
     box-shadow: #dbdbdb 7px 5px 5px ;
-    margin-right: 20px;
     margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .servises:hover{
     transition: ease-in 0.3s;
@@ -220,6 +235,10 @@ a {
     margin-right: 20px;
     box-shadow: #dbdbdb 7px 5px 5px ;
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
 }
 .servises-1:hover{
     transition: ease-in 0.3s;
