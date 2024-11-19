@@ -13,21 +13,6 @@
          url('../fonts/samim-font-v2.0.1/Samim.woff') format('woff'),  
          url('../fonts/samim-font-v2.0.1/Samim.ttf') format('truetype');    
 }  
-.container {
-    max-width: 1200px;
-    /* حداکثر عرض برای کامپیوتر */
-    margin: 0 auto;
-    /* وسط چین کردن */
-    padding: 20px;
-    /* فاصله داخلی */
-}
-
-@media (max-width: 768px) {
-    .container {
-        padding: 10px;
-        /* فاصله داخلی برای گوشی */
-    }
-}
 main{
     margin-top: 10px;
 }
