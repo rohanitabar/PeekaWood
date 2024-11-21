@@ -22,11 +22,9 @@
   <body>
     <div>
     <header style="direction: rtl" class="container-fluid">
-      <span
-        ><a href="./index.html"
-          ><img src="./img/logo.png" alt="logo" class="logo" /></a
-      ></span>
-      <nav class="menu row">
+      <!-- <nav class="menu row">
+
+
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             
@@ -75,6 +73,76 @@
           </form>
             </div>
           </div>
+      </nav> -->
+      <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+      <span><a href="./index.html"><img src="./img/logo.png" alt="logo" class="logo" /></a></span>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">پیکا چوب</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">خانه</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              درب کابینت
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/menu/DarbKabinet/Memberan.html">ممبران</a></li>
+              <li><a class="dropdown-item" href="/menu/DarbKabinet/NeoClassic.html">نئو کلاسیک </a></li>
+              <li><a class="dropdown-item" href="/menu/DarbKabinet/Rokesh.html">روکش چوب</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               کابینت آشپزخانه
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/menu/kabinetAshpazKhaneh/Memberan.html" target="_blank">کابینت ممبران</a></li>
+              <li><a class="dropdown-item" href="/menu/kabinetAshpazKhaneh/NeoClassic.html" target="_blank">کابینت نئو کلاسیک </a></li>
+              <li><a class="dropdown-item" href="/menu/kabinetAshpazKhaneh/Rokesh.html" target="_blank">کابینت روکش چوب</a></li>
+              <li><a class="dropdown-item" href="/menu/kabinetAshpazKhaneh/HiGlass.html" target="_blank">کابینت های گلاس</a></li>
+              <li><a class="dropdown-item" href="/menu/kabinetAshpazKhaneh/Modern.html" target="_blank">کابینت مدرن</a></li>
+              <li><a class="dropdown-item" href="/menu/kabinetAshpazKhaneh/Pele_Ie.html" target="_blank">کابینت پله ای</a></li>
+              <li><a class="dropdown-item" href="/menu/kabinetAshpazKhaneh/Enzo.html" target="_blank">کابیینت انزو</a></li>
+              <li><a class="dropdown-item" href="/menu/kabinetAshpazKhaneh/Classic.html" target="_blank">کابینت کلاسیک</a></li>
+              <li><a class="dropdown-item" href="/menu/kabinetAshpazKhaneh/PoliOrtan.html" target="_blank">کابینت پلی اورتان</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              کمد
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/menu/Komod/Divari.html" target="_blank">کمد دیواری</a></li>
+              <li><a class="dropdown-item" href="/menu/Komod/Lebas.html" target="_blank">کمد لباس</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              سرویس خواب
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/menu/SevisKhab/Nozad.html" target="_blank">سرویس خواب کودک</a></li>
+              <li><a class="dropdown-item" href="/menu/SevisKhab/DoNafaaareh.html" target="_blank">سرویس خواب دو نفره</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="جست و جو" aria-label="Search" id="search">
+          <button class="btn btn-outline-success" type="submit" id="search">انجام</button>
+        </form>
+      </div>
+    </div>
+        </div>
       </nav>
     </header>
     <main>
