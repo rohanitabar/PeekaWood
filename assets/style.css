@@ -165,6 +165,7 @@ a {
 }
 .sabk:hover{
     transition: ease-in-out 0.3s;
+    animation:cubic-bezier(0.39, 0.575, 0.565, 1);
     background-color: #4ccf62;
     -webkit-user-select: none;
     user-select: none;
@@ -343,6 +344,23 @@ a {
     transition: ease-in-out 0.3s;
     background-color: #ffb03a;
     color: #fff;
+}
+.nav-item{
+    text-align: center;
+}
+.nav-item:hover{
+    
+    border-radius: 10px;
+    transition: ease-in-out 0.3s ;
+    background-color: #ffb03a;    
+}
+.dropdown-item {
+    text-align: center;
+}
+.dropdown-item:hover{
+    border-radius: 10px;
+    transition: ease-in-out 0.3s;
+    background-color: #ffb03a;
 }
 footer{
     color: #fff;
