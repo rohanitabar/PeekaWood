@@ -206,7 +206,7 @@ a {
 }
 .card:hover{
     transition: ease-in 0.3s;
-    box-shadow: #dbdbdb 5px 15px 15px ;
+    box-shadow: #5c5c5c 5px 5px 50px ;
 }
 .card-text1{
     color: #ffb03a;
@@ -272,6 +272,21 @@ a {
     font-size: 13px;
     margin-right: -5px;
 }
+
+.blog-1 {
+    width: 100px;
+    height: 30px;
+    background-color: #196337;
+    text-align: center;
+    padding-top: 5px;
+    margin-right: 450px;
+    border-radius: 15px;
+    -webkit-user-select: none;
+    user-select: none;
+    color: #fff;
+    font-size: 13px;
+}
+
 .search{
     width: 250px;
     margin-top: 0px;
