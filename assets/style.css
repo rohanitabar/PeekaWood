@@ -209,8 +209,15 @@ a {
     box-shadow: #5c5c5c 5px 5px 50px ;
 }
 .card-text1{
+    width: 70px;
+    border-radius: 15px;
     color: #ffb03a;
     text-align: center;
+}
+.card-text1:hover{
+    transition: ease-in-out 0.3s;
+    background-color: #196337;
+    color: #ffffff;
 }
 .servises-1{
     color: #fff;
@@ -235,10 +242,16 @@ a {
 }
 
 .card-text2{
+    width: 120px;
+    border-radius: 15px;
     color: #ffb03a;
-    text-align: right;
+    text-align: center;
 }
-
+.card-text2:hover {
+    transition: ease-in-out 0.3s;
+    background-color: #0077ff;
+    color: #fff;
+}
 .mohasebeh {
     height: 70px;
     background-color: #ffffff;
