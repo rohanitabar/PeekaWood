@@ -3,7 +3,14 @@
     const searchBar=document.querySelector('.searchBar')
     const searchInput = document.getElementById('search-inp');  
     const submit = document.getElementById('search-btn');  
-    const divs = document.getElementsByTagName('div');   
+    const divs = document.getElementsByTagName('div'); 
+    const mobileMenu = document.getElementById('mobile-menu');  
+    const navList = document.querySelector('.nav-list');  
+    const ButtonSend = document.getElementById('buttonSend');  
+    const User = document.getElementById('user'.valueOf);  
+    const CommentBox = document.getElementById('commentBox'.valueOf);  
+    const commentsSection = document.getElementById('commentsSection');
+    const toggle = document.getElementById('toggle');
 
         // Events & Works
         function SearchBox(){
@@ -23,17 +30,7 @@
                     }  
                 }  
             });
-        }
-// End Search Box
-
-// Comment Box  
-
-    // Variables  
-
-    const ButtonSend = document.getElementById('buttonSend');  
-    const User = document.getElementById('user'.valueOf);  
-    const CommentBox = document.getElementById('commentBox'.valueOf);  
-    const commentsSection = document.getElementById('commentsSection');   
+        } 
 
     // Function to display comments from localStorage  
 
@@ -104,4 +101,8 @@
 
         // Display comments on page load  
     window.onload = displayComments;
-// End Comment Box
+ 
+// Change Menu
+mobileMenu.addEventListener('click', () => {  
+    navList.classList.toggle('active');  
+});
